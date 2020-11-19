@@ -9,8 +9,6 @@ body {
     width: 100vw;
     position: relative;
     /* overflow: hidden; */
-
-    border: solid black 2px;
 }
 
 .row {
@@ -18,7 +16,7 @@ body {
 }
 
 .row-nav-top {
-    height: 10%;
+    height: 10vh;
     width: 100%;
     position: fixed;
     top: 0;
@@ -28,7 +26,7 @@ body {
 }
 
 .row-nav-bottom {
-    height: 10%;
+    height: 10vh;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -59,4 +57,22 @@ body {
 
 .nav-projects {
     align-content: flex-end;
+}
+
+.container-text {
+    width: 90%;
+    margin: auto 0;
+}
+
+.image {
+    height: 50vh;
+    border: solid 2px black;
+}
+
+.object-top {
+    margin-top: 12.5vh;
+}
+
+.object-bottom {
+    margin-bottom: 12.5vh;
 }
