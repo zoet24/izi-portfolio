@@ -51,6 +51,10 @@ body {
     color: black;
 }
 
+.nav-active {
+    font-weight: 600;
+}
+
 .nav-izi, .nav-contact {
     align-content: flex-start;
 }
@@ -59,14 +63,17 @@ body {
     align-content: flex-end;
 }
 
-.container-text {
-    width: 90%;
-    margin: auto 0;
+.container-text, .image {
+    border: solid 2px black;
+    margin: 2.5% auto;
 }
 
 .image {
     height: 50vh;
-    border: solid 2px black;
+}
+
+p {
+    margin: 0;
 }
 
 .object-top {
