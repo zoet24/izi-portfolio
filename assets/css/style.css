@@ -1,3 +1,62 @@
 body {
-    background: blue;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.container-background {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    /* overflow: hidden; */
+
+    border: solid black 2px;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.row-nav-top {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    border: solid black 2px;
+}
+
+.row-nav-bottom {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    border: solid black 2px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    color: black;
+
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-izi, .nav-contact {
+    align-content: flex-start;
+}
+
+.nav-projects {
+    align-content: flex-end;
 }
