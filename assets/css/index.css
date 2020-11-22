@@ -1,4 +1,8 @@
-#video-flags {
-    height: 100%;
-    background: rgba(100,100,100,0.1);
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
