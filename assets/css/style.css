@@ -59,21 +59,37 @@ body {
     font-weight: 700;
 }
 
-.nav-izi, .nav-contact {
+.nav-izi, .nav-home {
     align-content: flex-start;
 }
 
-.nav-projects {
+.nav-projects, .nav-contact {
     align-content: flex-end;
 }
 
-.container-text, .image {
+button {
+    background-color: white;
+}
+
+/* .col {
+    padding: 0;
+} */
+
+.container-text, button {
     border: solid 2px black;
     margin: 2.5% auto;
+    padding: 0;
 }
 
 .image {
-    height: 50vh;
+    border: solid 2px black;
+    /* height: 50vh; */
+    padding: 0;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
 }
 
 p {
