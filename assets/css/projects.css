@@ -1,0 +1,7 @@
+.carousel-content {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
