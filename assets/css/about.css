@@ -6,6 +6,11 @@ main {
     font-size: 2em;
 }
 
+div.container-text-about {
+    background-color: rgba(250, 250, 250, 0.6);
+}
+
+
 .highlight {
     color: blue;
     font-style: italic;

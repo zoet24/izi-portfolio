@@ -1,42 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
 body {
     color: black;
+    background-color: rgb(225,225,225);
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
 }
 
 .container-background {
     height: 100vh;
     width: 100vw;
     position: relative;
-    /* overflow: hidden; */
 }
 
 .row {
     margin: 0 auto;
 }
 
-.row-nav-top {
-    height: 10vh;
+.col {
+    padding: 0;
+}
+
+.row-nav {
+    height: 7.5vh;
     width: 100%;
+
+    background-color: rgba(250, 250, 250, 0.9);
+}
+
+.row-nav-top {
     position: fixed;
     top: 0;
     left: 0;
 
     z-index: 2;
-
-    border: solid black 2px;
 }
 
 .row-nav-bottom {
-    height: 10vh;
-    width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
 
     z-index: 1;
-
-    border: solid black 2px;
 }
 
 .nav {
@@ -46,13 +53,16 @@ body {
 
     color: black;
 
-    padding-left: 1em;
-    padding-right: 1em;
+    font-size: 1.45em;
+
+    padding-left: 0.25em;
+    padding-right: 0.25em;
 }
 
 .nav:hover {
     text-decoration: none;
-    color: black;
+    color: blue;
+    font-style: italic;
 }
 
 .nav-active {
@@ -71,12 +81,8 @@ button {
     background-color: white;
 }
 
-/* .col {
-    padding: 0;
-} */
-
 .container-text, button {
-    border: solid 2px black;
+    /* border: solid 2px black; */
     margin: 2.5% auto;
     padding: 0;
 }
