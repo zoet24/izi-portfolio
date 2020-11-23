@@ -1,0 +1,18 @@
+.container-text-contact {
+    font-size: 2rem;
+}
+
+div.container-text-contact {
+    border: none;
+}
+
+.container-text-contact-sm {
+    font-size: 1.75rem;
+    color: black;
+}
+
+.container-text-contact-sm:hover {
+    text-decoration: none;
+    color: blue;
+    font-style: italic;
+}

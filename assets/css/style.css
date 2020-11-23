@@ -28,6 +28,7 @@ body {
     width: 100%;
 
     background-color: rgba(250, 250, 250, 0.9);
+    border: rgb(225,225,225) solid 2px;
 }
 
 .row-nav-top {
@@ -81,15 +82,18 @@ button {
     background-color: white;
 }
 
-.container-text, button {
-    /* border: solid 2px black; */
-    margin: 2.5% auto;
+.container-text, .container-image, button {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     padding: 0;
 }
 
+div.container-text {
+    background-color: rgba(250, 250, 250, 0.5);
+    border: solid 2px white;
+}
+
 .image {
-    border: solid 2px black;
-    /* height: 50vh; */
     padding: 0;
     overflow: hidden;
 }
@@ -103,9 +107,9 @@ p {
 }
 
 .object-top {
-    margin-top: 12.5vh;
+    margin-top: 9vh;
 }
 
 .object-bottom {
-    margin-bottom: 12.5vh;
+    margin-bottom: 9vh;
 }

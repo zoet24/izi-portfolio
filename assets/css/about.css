@@ -4,10 +4,11 @@ main {
 
 .container-text-about {
     font-size: 2em;
+    margin: 0 auto;
 }
 
 div.container-text-about {
-    background-color: rgba(250, 250, 250, 0.6);
+    border: none;
 }
 
 
