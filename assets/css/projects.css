@@ -8,12 +8,43 @@
 .container-projects h2 {
     text-align: left;
     padding-left: 2.5%;
+    font-size: 2rem;
 }
 
-.carousel-content {
-    height: 50vh;
+.modal-header {
+    margin: 0;
+}
+
+.modal-header .close {
+    font-size: 40px;
+}
+
+.modal-title {
+    font-size: 1.75rem;
+}
+
+.modal-body {
+    font-size: 1.5rem;
+}
+
+.carousel-inner {
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
+
+    border-top: rgb(225,225,225) solid 4px;
+    border-bottom: rgb(225,225,225) solid 4px;
+}
+
+.carousel-inner-1 {
+    height: 75vh;
+}
+
+.carousel-inner-2, .carousel-inner-3, .carousel-inner-4, .carousel-inner-5, .carousel-inner-7 {
+    height: 40vh;
+}
+
+.carousel-inner-6, .carousel-inner-8 {
+    height: 50vh;
 }
