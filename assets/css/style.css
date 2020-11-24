@@ -83,9 +83,8 @@ button {
 }
 
 .container-text, .container-image, button {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
     padding: 0;
+    margin: 2.5% auto;
 }
 
 div.container-text {
