@@ -48,3 +48,13 @@
 .carousel-inner-6, .carousel-inner-8 {
     height: 50vh;
 }
+
+#amnesty-link {
+    color: black;
+}
+
+#amnesty-link:hover {
+    text-decoration: none;
+    color: blue;
+    font-style: italic;
+}
