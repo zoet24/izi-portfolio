@@ -17,66 +17,53 @@ div.container-text-about {
 }
 
 .about-bg-img {
-    /* background-size: cover; */
-    /* Multiple options for this, try contain ^^ */
-    /* background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;     */
-}
-
-.about-bg-img-1 {
-    background-image: url(/assets/images/about-image-1.jpg);
     background-size: cover;
     /* Multiple options for this, try contain ^^ */
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment:fixed;    
+}
+
+.about-bg-img-1 {
+    background-image: url(/assets/images/about/about-image-1-min.jpg);
 }
 
 .about-bg-img-2 {
-    background-image: url(/assets/images/about-image-2.jpg);
-    background-size: contain;
-    /* Multiple options for this, try contain ^^ */
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-image: url(/assets/images/about/about-image-2-min.jpg);
 }
 
 .about-bg-img-3 {
-    background-image: url(/assets/images/about-image-3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-image: url(/assets/images/about/about-image-3-min.jpg);
 }
 
 .about-bg-img-4 {
-    background-image: url(/assets/images/about-image-4.jpg);
+    background-image: url(/assets/images/about/about-image-4-min.jpg);
 }
 
 .about-bg-img-5 {
-    background-image: url(/assets/images/about-image-5.jpg);
+    background-image: url(/assets/images/about/about-image-5-min.jpg);
 }
 
 .about-bg-img-6 {
-    background-image: url(/assets/images/about-image-6.jpg);
+    background-image: url(/assets/images/about/about-image-6-min.jpg);
 }
 
 .about-bg-img-7 {
-    background-image: url(/assets/images/about-image-7.jpg);
+    background-image: url(/assets/images/about/about-image-7-min.jpg);
 }
 
 .about-bg-img-8 {
-    background-image: url(/assets/images/about-image-8.jpg);
+    background-image: url(/assets/images/about/about-image-8-min.jpg);
 }
 
 .about-bg-img-9 {
-    background-image: url(/assets/images/about-image-9.jpg);
+    background-image: url(/assets/images/about/about-image-9-min.jpg);
 }
 
 .about-bg-img-10 {
-    background-image: url(/assets/images/about-image-10.jpg);
+    background-image: url(/assets/images/about/about-image-10-min.jpg);
 }
 
 .about-bg-img-11 {
-    background-image: url(/assets/images/about-image-11.jpg);
+    background-image: url(/assets/images/about/about-image-11-min.jpg);
 }
