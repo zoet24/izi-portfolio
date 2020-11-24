@@ -1,5 +1,5 @@
 .body-about {
-    background-image: url(/assets/images/about/about-image-1-min.jpg);
+    background: url(../images/about/about-image-1-min.jpg);
     background-size: cover;
     /* Multiple options for this, try contain ^^ */
     background-position: center center;
