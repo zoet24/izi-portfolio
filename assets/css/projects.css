@@ -49,6 +49,12 @@
     height: 50vh;
 }
 
+#video-allot {
+    width: 100%;
+    border: white solid 1px;
+    margin-bottom: 5%;
+}
+
 #amnesty-link {
     color: black;
 }
