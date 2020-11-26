@@ -64,7 +64,7 @@ $(window).scroll(function() {
        $("#about-text-10").addClass("highlight", "about.css");
        $("main").addClass("about-bg-img-10", "about.css");
    }
-   else if ((wS > (hTk + (hHk/2) - ((0.85*wH)/1))) && (wS < (hTk + (hHk/2) - ((0.8*wH)/1)))){
+   else if ((wS > (hTk + (hHk/2) - ((0.95*wH)/1))) && (wS < (hTk + (hHk/2) - ((0.8*wH)/1)))){
        $("#about-text-11").addClass("highlight", "about.css");
        $("main").addClass("about-bg-img-11", "about.css");
    }

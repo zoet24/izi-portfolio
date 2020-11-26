@@ -1,8 +1,12 @@
 video {
-  object-fit: cover;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    bottom: 7.5vh;
+    left: 0;
+
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
 }

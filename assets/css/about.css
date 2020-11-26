@@ -20,7 +20,7 @@ div.container-text-about {
 .about-bg-img {
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
 
     -webkit-background-size: contain;
     -moz-background-size: contain;
