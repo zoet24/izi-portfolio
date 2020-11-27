@@ -48,8 +48,18 @@ body {
 }
 
 .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    
+    -webkit-box-pack: center;
+    
+    -ms-flex-pack: center;
+    
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 
     color: black;
@@ -71,10 +81,12 @@ body {
 }
 
 .nav-izi, .nav-home {
+    -ms-flex-line-pack: start;
     align-content: flex-start;
 }
 
 .nav-projects, .nav-contact {
+    -ms-flex-line-pack: end;
     align-content: flex-end;
 }
 
