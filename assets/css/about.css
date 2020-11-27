@@ -1,3 +1,31 @@
+.background-images {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+}
+
+#about-image-1 {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+}
+
+#about-image-2 {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+}
+
+#about-image-3 {
+    position: absolute;
+    top: 75vh;
+    left: 0;
+}
+
 main {
     width: 100%;
 }
@@ -37,27 +65,27 @@ div.container-text-about {
     }
 }
 
-.img-1 {
+.about-bg-img-1 {
     background-image: url(../images/about-image-1.jpg);
 }
 
-.img-2 {
+.about-bg-img-2 {
     background-image: url(../images/about-image-2.jpg);
 }
 
-.img-3 {
+.about-bg-img-3 {
     background-image: url(../images/about-image-3.jpg);
 }
 
-.img-4 {
+.about-bg-img-4 {
     background-image: url(../images/about-image-4.jpg);
 }
 
-.img-5 {
+.about-bg-img-5 {
     background-image: url(../images/about-image-5.jpg);
 }
 
-.img-6 {
+.about-bg-img-6 {
     background-image: url(../images/about-image-6.jpg);
 }
 
