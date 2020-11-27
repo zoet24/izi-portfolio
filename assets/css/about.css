@@ -22,18 +22,18 @@ div.container-text-about {
     background-position: center center;
     background-attachment: fixed;
     
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
     /* Multiple options for this, try cover ^^ */   
 }
 
 @supports (-webkit-overflow-scrolling: touch) {
     .about-bg-img {
         background-attachment: scroll;
-
-        background-size: cover;
+        background-size: 100% auto;
+        /* background-size: cover; */
     }
 }
 
