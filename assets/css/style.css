@@ -48,7 +48,9 @@ body {
 }
 
 .nav {
+	display: -webkit-flex;
     display: flex;
+
     justify-content: center;
     flex-direction: column;
 
@@ -75,6 +77,7 @@ body {
 }
 
 .nav-projects, .nav-contact {
+    -webkit-align-content: flex-end;
     align-content: flex-end;
 }
 
@@ -97,7 +100,7 @@ div.container-text {
     overflow: hidden;
 }
 
-img.image {
+img.image, .image img {
     width: 100%;
 }
 

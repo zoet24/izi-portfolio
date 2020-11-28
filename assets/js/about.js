@@ -49,9 +49,6 @@ onload = function () {
         $('#about-image-9').css({ top: (hTi - (hIi/2) + (hHi/2)) });
         $('#about-image-10').css({ top: (hTj - (hIj/2) + (hHj/2)) });
         $('#about-image-11').css({ top: (hTk + (hHk/2) - (wH/2)) });
-        console.log(hTa, hIa, hHa);
-        console.log(hTb, hIb, hHb);
-        console.log(hTk, hIk, hHk);
 };
 
 $(window).scroll(function() {
